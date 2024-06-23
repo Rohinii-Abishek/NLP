@@ -2,7 +2,7 @@
 from nltk.stem import PorterStemmer
 import spacy 
 
-# Initialize Stemmer
+# Initialize Stemmer & SpaCy model
 stemmer = PorterStemmer()
 nlp = spacy.load('en_core_web_sm')
 
